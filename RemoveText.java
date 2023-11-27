@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class RemoveText {
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.out.println("Usage: java RemoveText <"lelo"> <names.txt>");
+            System.out.println("Usage: java RemoveText <\"lelo\"> <names.txt>");
             System.exit(1);
         }
 
