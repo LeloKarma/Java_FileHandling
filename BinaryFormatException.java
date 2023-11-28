@@ -1,8 +1,15 @@
-import java.util.NumberFormatException;
+package FileHandling;
+import java.util.AbstractCollection;
 
-public class BinaryFormatException extends NumberFormatException {
-    public BinaryFormatException(String message) {
-        super(message);
-    }
+public class NumberFormatException {
+
+	public class BinaryFormatException extends NumberFormatException {
+	    private static final long serialVersionUID = 1L;
+
+		public BinaryFormatException(String message) {
+	        super();
+	     
+	      
+	}
+	}
 }
-
